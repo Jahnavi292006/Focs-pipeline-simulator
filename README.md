@@ -35,7 +35,7 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 
 ## To Use it
 
-[▶ Open Live Demo](https://Jahnavi292006.github.io/Focs-pipeline-simulator/applet.html))
+[▶ Open Live Demo](https://Jahnavi292006.github.io/Focs-pipeline-simulator/applet.html) 
 
 ---
 ## Quick Start
