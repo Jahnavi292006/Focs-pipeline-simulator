@@ -32,11 +32,6 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 | `FOCS_Report.pdf` | Detailed report — design decisions, assumptions, test cases |
 
 ---
-## To Use it
-
-[▶ Open Live Demo](https://yourusername.github.io/repo-name/applet.html)
-
----
 
 ## Quick Start
 
