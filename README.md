@@ -28,7 +28,7 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 | File | Description |
 |---|---|
 | `applet.html` | Open this in any browser to run the simulator |
-| `code.rtf` | Full source code of the simulator |The code is using html+javascript+css
+| `code.rtf` | Full source code of the simulator |The code is using html+javascript+css|
 | `FOCS_Report.pdf` | Detailed report — design decisions, assumptions, test cases |
 
 ---
