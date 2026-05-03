@@ -9,7 +9,7 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 
 ---
 
-![Simulator Screenshot](screenshot.png)
+![Simulator Screenshot](Screenshot.png)
 
 ---
 
