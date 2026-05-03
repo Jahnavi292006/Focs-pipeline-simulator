@@ -33,6 +33,11 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 
 ---
 
+## To Use it
+
+[▶ Open Live Demo](https://yourusername.github.io/repo-name/applet.html)
+
+---
 ## Quick Start
 
 Download `code.html` and open it in your browser.For the code.
