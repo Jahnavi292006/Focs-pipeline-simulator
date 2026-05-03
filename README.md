@@ -10,6 +10,19 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 
 ---
 
+## Features
+
+- **4-stage and 5-stage** pipeline modes
+- **Supported instructions** — `ADD`, `SUB`, `MUL`, `DIV`, `AND`, `OR`, `ORI`, `LW`, `SW`, `SLT`
+- **RAW hazard detection** with automatic stall insertion
+- **Data forwarding** toggle (EX→EX and MEM→EX paths)
+- **Load-use hazard** handling — 1 stall inserted even with forwarding on
+- **Side-by-side comparison** — total cycles, stall cycles, RAW hazards, forwarding events, and stalls eliminated, shown for both forwarding and no-forwarding on the same instruction sequence
+- **Step / Auto / Run All** execution controls
+- Up to 10 instructions per simulation
+
+---
+
 ## Files
 
 | File | Description |
@@ -28,4 +41,4 @@ Download `applet.html` and open it in your browser. No installation needed.
 
 ## Learn More
 
-For a full explanation of the pipeline model, hazard handling, forwarding logic, and test case analysis see **`FOCS_Report.pdf`**.
+For a full explanation of the pipeline model, hazard handling, forwarding logic, and test case analysis — see **`FOCS_Report.pdf`**.
