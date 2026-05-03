@@ -1,12 +1,17 @@
-# Focs-pipeline-simulator
-Interactive pipeline hazard simulator
+# 🛰️ Plaksha Orbital Pipeline Deck
 
-# Plaksha Orbital Pipeline Deck
-CS2011 — Foundations of Computer Systems · Assignment 2
+![Course](https://img.shields.io/badge/CS2011-FOCS-1d4ed8?style=flat-square) ![Assignment](https://img.shields.io/badge/Assignment-2-6d28d9?style=flat-square) ![Pipeline](https://img.shields.io/badge/Pipeline-Simulation-0f766e?style=flat-square) ![Tech](https://img.shields.io/badge/HTML%20%2B%20JS%20%2B%20CSS-vanilla-f59e0b?style=flat-square) ![Plaksha](https://img.shields.io/badge/Plaksha-University-0ea5e9?style=flat-square)
 
-**Kashika Kapoor · Jahnavi S · Vansh Jain**
+> CS2011 — Foundations of Computer Systems · Assignment 2  
+> **Kashika Kapoor · Jahnavi S · Vansh Jain**
 
 A browser-based pipeline hazard simulator. Input instructions and watch them move cycle-by-cycle through a 4-stage or 5-stage pipeline, with RAW hazard detection, stall insertion, and data forwarding.
+
+**[▶ Open Live Demo](https://Jahnavi292006.github.io/Focs-pipeline-simulator/applet.html)**
+
+---
+
+![Simulator Screenshot](screenshot.png)
 
 ---
 
@@ -15,9 +20,9 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 - **4-stage and 5-stage** pipeline modes
 - **Supported instructions** — `ADD`, `SUB`, `MUL`, `DIV`, `AND`, `OR`, `ORI`, `LW`, `SW`, `SLT`
 - **RAW hazard detection** with automatic stall insertion
-- **Data forwarding** toggle (EX→EX and MEM→EX paths)
-- **Load-use hazard** handling 
-- **Side-by-side comparison** — total cycles, stall cycles, RAW hazards, forwarding events, and stalls eliminated, shown for both forwarding and no-forwarding on the same instruction sequence
+- **Data forwarding** toggle — EX→EX and MEM→EX paths
+- **Load-use hazard** handling — 1 stall inserted even with forwarding on
+- **Side-by-side comparison** — total cycles, stall cycles, RAW hazards, forwarding events and stalls eliminated for both modes on the same instruction sequence
 - **Step / Auto / Run All** execution controls
 - Up to 10 instructions per simulation
 
@@ -27,23 +32,12 @@ A browser-based pipeline hazard simulator. Input instructions and watch them mov
 
 | File | Description |
 |---|---|
-| `applet.html` | Open this in any browser to run the simulator |
-| `code.rtf` | Full source code of the simulator ,The code is using html+javascript+css|
-| `FOCS_Report.pdf` | Detailed report — design decisions, assumptions, test cases |
-
----
-
-## To Use it
-
-[▶ Open Live Demo](https://Jahnavi292006.github.io/Focs-pipeline-simulator/applet.html) 
-
----
-## Quick Start
-
-Download `code.html` and open it in your browser.For the code.
+| `applet.html` | Open in any browser to run the simulator |
+| `code.html` | Full source code — HTML + JavaScript + CSS |
+| `FOCS_Report.pdf` | Detailed report — design, assumptions, test cases |
 
 ---
 
 ## Learn More
 
-For a full explanation of the pipeline model, hazard handling, forwarding logic, and test case analysis — see **`FOCS_Report.pdf`**.
+For the full explanation of the pipeline model, hazard handling, forwarding logic, and all test case analyses — see **[FOCS_Report.pdf](./FOCS_Report.pdf)**.
