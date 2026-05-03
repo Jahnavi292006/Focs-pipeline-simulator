@@ -28,4 +28,4 @@ Download `applet.html` and open it in your browser. No installation needed.
 
 ## Learn More
 
-For a full explanation of the pipeline model, hazard handling, forwarding logic, and test case analysis — see **`FOCS_Report.pdf`**.
+For a full explanation of the pipeline model, hazard handling, forwarding logic, and test case analysis see **`FOCS_Report.pdf`**.
